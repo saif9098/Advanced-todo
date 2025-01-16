@@ -1,0 +1,98 @@
+.layoutbox{
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-between;
+    background-color: white;
+   width: 100%;
+  }
+  .sidebar {
+    height: 92vh ;
+    width: 19%;
+    background-color: rgb(221, 228, 228);
+    color: black;
+    overflow: auto;
+  }
+  ::-webkit-scrollbar{
+    width: 4px;
+    height: 20px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: #afbabe;
+    border-radius: 10px;
+    height: 20px;
+  }
+  .profileinfo{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+   
+    
+  }
+ 
+  .profilepic{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size:cover; /* Adjusts the background size */
+    background-repeat: no-repeat;
+    position: relative;
+    top: 50px;
+  }
+  .dash-container{
+    background-color: #eef0fd;
+  }
+  .pagebox{
+    min-height: 92vh;
+  }
+  .logo h6 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 20px 0px;
+  }
+  .menu-item {
+    margin-top: 30px;
+  }
+  
+  .menu-item a {
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .menu-item i {
+    font-size: 1rem;
+    margin: 0 15px;
+    color: black;
+  }
+  
+  .activated {
+    background-color: rgb(221, 228, 228);
+    padding: 10px;
+  }
+  
+  .activated a,
+  .activated i {
+    color: #7e7e7e;
+  }
+  .activated2 {
+    background-color: #208d3b73;
+    padding: 10px;
+  }
+  
+  .activate2 a,
+  .activated2 i {
+    color: #41d366ee;
+  }
+  @media (max-width:750px) {
+    .sidebar{
+      width: 100%;
+    }
+    .pagebox{
+      width: 100%;
+    }
+  }

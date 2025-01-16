@@ -1,0 +1,17 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: white;
+  color: black;
+}
+#navbar{
+  width: 100vw;
+  height: 8vh;
+  background-color: rgb(253, 253, 253);
+}
+#navbar2{
+  width: 100vw;
+  height: 8vh;
+  background-color: rgb(8, 8, 8);
+}
